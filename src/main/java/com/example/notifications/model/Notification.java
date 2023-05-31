@@ -1,5 +1,6 @@
 package com.example.notifications.model;
 
+import com.fasterxml.jackson.annotation.JsonProperty;
 import jakarta.persistence.Entity;
 import org.apache.catalina.User;
 import org.jose4j.json.internal.json_simple.JSONObject;
@@ -21,14 +22,16 @@ import jakarta.persistence.GenerationType;
 public class Notification {
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
+    @JsonProperty("notification_id")
     @Column(name = "notification_id")
     private Long notificationId;
 
+    @JsonProperty("message")
     @Column(name = "message")
     private String message;
-    @ManyToOne(fetch = FetchType.LAZY)
-    @JoinColumn(name = "user_id")
-    private User user_id;
+//    @ManyToOne(fetch = FetchType.LAZY)
+//    @JoinColumn(name = "user_id")
+//    private User user_id;
     @Column(name = "time")
     @Temporal(TemporalType.TIMESTAMP)
     private Date createdAt;
@@ -36,7 +39,7 @@ public class Notification {
 
     private boolean status;
     @Column(nullable = false)
-
+    @JsonProperty("request_type")
     private String request_type;
     @Column(name = "request_type")
     private Long table_id;
@@ -49,7 +52,7 @@ public class Notification {
         this.message = message;
         this.status = status;
         this.createdAt = time;
-        this.user_id = user;
+        //this.user_id = user;
     }
 
     public Notification(String message, LocalDateTime now, JSONObject file) {
@@ -77,21 +80,21 @@ public class Notification {
         this.message = message;
     }
 
-    public Date getCreatedAt() {
-        return createdAt;
-    }
+//    public Date getCreatedAt() {
+//        return createdAt;
+//    }
 
     public void setCreatedAt(Date createdAt) {
         this.createdAt = createdAt;
     }
 
-    public User getUser_id() {
-        return user_id;
-    }
-
-    public void setUser_id(User user_id) {
-        this.user_id = user_id;
-    }
+//    public User getUser_id() {
+//        return user_id;
+//    }
+//
+//    public void setUser_id(User user_id) {
+//        this.user_id = user_id;
+//    }
 
     public boolean isStatus() {
         return status;
@@ -112,4 +115,5 @@ public class Notification {
     public void setTime(Date time) {
         this.createdAt = time;
     }
+    public Date getTime() {return createdAt;}
 }

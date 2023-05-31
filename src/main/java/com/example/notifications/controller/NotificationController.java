@@ -19,10 +19,23 @@ public class NotificationController {
    private final NotificationRepository notificationRepository;
 
     @Autowired
-    public NotificationController(NotificationRepository notificationRepository) {
+    public NotificationController (NotificationRepository notificationRepository) {
         this.notificationRepository = notificationRepository;
     }
-    @PostMapping("/notification")
+    @PostMapping("/notifications")
+    public void processNotificationRequest(@RequestBody Notification notificationRequest) {
+        // Process the notification request here
+        Long tableId = notificationRequest.getTable_id();
+        Long notificationId = notificationRequest.getNotificationId();
+       // int userId = notificationRequest.getUserId();
+        String requestType = notificationRequest.getRequest_type();
+        Date time = notificationRequest.getTime();
+        //String type = notificationRequest.getType();
+        String message = notificationRequest.getMessage();
+        boolean status = notificationRequest.isStatus();
+
+        // Perform further processing with the received fields
+    }
     public ResponseEntity<NotificationResponse> createNotification(@RequestBody Notification notification)
     {
         // Set the current time for the notification
@@ -38,7 +51,7 @@ public class NotificationController {
         return ResponseEntity.ok(response);
     }
 
-    @GetMapping("/notification/{id}")
+    @GetMapping("/notifications/{id}")
     public ResponseEntity<NotificationResponse> getNotificationById(@PathVariable Long id)
     {
         // Retrieve the notification from the database by ID

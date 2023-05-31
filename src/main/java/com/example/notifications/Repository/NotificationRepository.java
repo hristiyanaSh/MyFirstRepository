@@ -1,16 +1,27 @@
 package com.example.notifications.Repository;
 
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.Example;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;
 import org.springframework.data.domain.Sort;
 import org.springframework.data.jpa.repository.JpaRepository;
+import org.springframework.stereotype.Repository;
 
+import javax.sql.DataSource;
 import java.util.List;
 import java.util.Optional;
 import java.util.function.Function;
 
+@Repository
 public class NotificationRepository implements JpaRepository {
+
+    private final DataSource dataSource;
+
+    @Autowired
+    public NotificationRepository(DataSource dataSource) {
+        this.dataSource = dataSource;
+    }
     @Override
     public void flush() {
 
