@@ -37,25 +37,27 @@ MySQL or any other compatible database
 
 1. Clone the repository:
 
-bash
-git clone https://github.com/georgedobrev/Restaurant_Assistant.git
-Navigate to the project directory:
+bash: git clone https://github.com/georgedobrev/Restaurant_Assistant.git
 
-bash
-cd restaurant-assistant
-Build the project using Maven:
+2. Navigate to the project directory:
+
+bash: cd restaurant-assistant
+
+3. Build the project using Maven:
 
 mvn clean install
-Configure the database connection in src/main/resources/application.properties.
+
+### Configuration
+**Configure the database connection in src/main/resources/application.properties.**
 
 Run the project:
 
 arduino
-Copy code
+
 mvn spring-boot:run
 Access the application in your browser at http://localhost:8080.
 
-Usage
+##### Usage
 Navigate to the homepage of the Restaurant Assistant application.
 
 Create an account or log in with your existing credentials.
@@ -64,28 +66,25 @@ Explore the different features and functionalities available in the application.
 
 Follow the on-screen instructions and tooltips to make the most of the Restaurant Assistant.
 
-Contributing
+#### Contributing
 We welcome contributions to the Restaurant Assistant project. To contribute, please follow these steps:
 
-Fork the repository.
+1. Fork the repository.
 
-Create a new branch:
+2. Create a new branch:
 
 css
-Copy code
 git checkout -b my-feature-branch
-Make your changes and commit them:
+3. Make your changes and commit them:
 
 sql
-Copy code
 git commit -m "Add new feature"
-Push your changes to your forked repository:
+4. Push your changes to your forked repository:
 
 perl
-Copy code
 git push origin my-feature-branch
-Open a pull request to the main repository.
+5. Open a pull request to the main repository.
 
-License
+#### License
 This project is licensed under the MIT License.
   
