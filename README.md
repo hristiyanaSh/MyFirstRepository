@@ -31,7 +31,7 @@ Prerequisites
 
 **Before running Restaurant Assistant, ensure you have the following prerequisites installed:**
 
-###Softwares
+### Softwares
 
 Docker
 Java Development Kit (JDK) 20
