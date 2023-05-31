@@ -6,14 +6,15 @@ various aspects of their business. It provides a range of features and functiona
 to streamline operations and enhance the dining experience.
 
 ## Table of Contents
-### Features
-### Prerequisites
-### Installation
-### Usage
-### Contributing
-### License
-
 #### Features
+#### Prerequisites
+#### Installation
+#### Usage
+#### Contributing
+#### License
+
+### Features
+
 #### Reservation Management:
 Efficiently handle customer reservations, track availability, and send confirmation emails.
 #### Order Management:
@@ -30,9 +31,12 @@ Prerequisites
 
 **Before running Restaurant Assistant, ensure you have the following prerequisites installed:**
 
+###Softwares
+Docker
 Java Development Kit (JDK) 20
 Apache Maven
 MySQL or any other compatible database
+
 ### Installation
 
 1. Clone the repository:
