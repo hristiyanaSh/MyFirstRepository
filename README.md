@@ -47,13 +47,9 @@ Prerequisites
 
  git clone https://github.com/georgedobrev/Restaurant_Assistant.git
 
-2. Navigate to the project directory:
+2. Navigate to the project directory: `cd restaurant-assistant`
 
- `cd restaurant-assistant`
-
-3. Build the project using Maven:
-
-`mvn clean install`
+3. Build the project using Maven: `mvn clean install`
 
 4. Install Docker 
 5. Write 'docker-compose up' on the console
@@ -63,9 +59,7 @@ Prerequisites
 ### Configuration
 **Configure the database connection in src/main/resources/application.properties.**
 
-Run the project:
-
-`mvn spring-boot:run`
+Run the project: `mvn spring-boot:run`
  
 Access the application in your browser at http://localhost:8080.
 
@@ -83,17 +77,11 @@ We welcome contributions to the Restaurant Assistant project. To contribute, ple
 
 1. Clone the repository.
 
-2. Create a new branch:
+2. Create a new branch:  `git checkout -b my-feature-branch`
 
- `git checkout -b my-feature-branch`
+3. Make your changes and commit them: `git commit -m "Add new feature"`
 
-3. Make your changes and commit them:
-
-`git commit -m "Add new feature"`
-
-4. Push your changes to your forked repository:
-
-`git push origin my-feature-branch`
+4. Push your changes to your forked repository: `git push origin my-feature-branch`
 
 5. Open a pull request to the main repository.
 
