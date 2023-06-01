@@ -5,7 +5,7 @@ For clients, the application allows them to easily scan a QR code assigned to th
 
 ## Table of Contents
 #### Features
-### Softwares
+#### Softwares
 #### Installation
 #### Usage
 #### Contributing
