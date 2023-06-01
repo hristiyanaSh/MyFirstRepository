@@ -4,12 +4,12 @@ The purpose of the restaurant assistant project is to develop a web/mobile appli
 For clients, the application allows them to easily scan a QR code assigned to their table, which registers them as seated. This eliminates the need for manual table assignment and helps the restaurant keep track of occupied tables. Clients can then access various options and services directly through the application. In Phase 1, clients can request assistance from waitstaff, ask for a menu, and request the bill. In Phase 2, they can view the menu on their mobile devices, complete with dish names, pictures, and language options, and place orders directly through the application.
 
 ## Table of Contents
-#### Features
-#### Softwares
-#### Installation
-#### Usage
-#### Contributing
-#### License
+* #### Features
+* #### Softwares
+* #### Installation
+* #### Usage
+* #### Contributing
+* #### License
 
 ### Features
 * Call a waiter for assistance.
