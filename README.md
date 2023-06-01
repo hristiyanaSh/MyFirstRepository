@@ -59,18 +59,18 @@ Prerequisites
 ### Configuration
 **Configure the database connection in src/main/resources/application.properties.**
 
-Run the project: `mvn spring-boot:run`
+1. Run the project: `mvn spring-boot:run`
  
-Access the application in your browser at http://localhost:8080.
+2. Access the application in your browser at http://localhost:8080.
 
 ##### Usage
-Navigate to the homepage of the Restaurant Assistant application.
+1. Navigate to the homepage of the Restaurant Assistant application.
 
-Create an account or log in with your existing credentials.
+2. Create an account or log in with your existing credentials.
 
-Explore the different features and functionalities available in the application.
+3. Explore the different features and functionalities available in the application.
 
-Follow the on-screen instructions and tooltips to make the most of the Restaurant Assistant.
+4. Follow the on-screen instructions and tooltips to make the most of the Restaurant Assistant.
 
 #### Contributing
 We welcome contributions to the Restaurant Assistant project. To contribute, please follow these steps:
