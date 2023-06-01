@@ -85,7 +85,7 @@ We welcome contributions to the Restaurant Assistant project. To contribute, ple
 
 2. Create a new branch:
 
- > git checkout -b my-feature-branch
+ `git checkout -b my-feature-branch`
 
 3. Make your changes and commit them:
 
