@@ -61,7 +61,7 @@ Prerequisites
  
 2. Access the application in your browser at http://localhost:8080.
 
-##### Usage
+#### Usage
 1. Navigate to the homepage of the Restaurant Assistant application.
 
 2. Create an account or log in with your existing credentials.
@@ -70,7 +70,7 @@ Prerequisites
 
 4. Follow the on-screen instructions and tooltips to make the most of the Restaurant Assistant.
 
-#### Contributing
+### Contributing
 We welcome contributions to the Restaurant Assistant project. To contribute, please follow these steps:
 
 1. Clone the repository.
@@ -83,6 +83,6 @@ We welcome contributions to the Restaurant Assistant project. To contribute, ple
 
 5. Open a pull request to the main repository.
 
-#### License
+### License
 This project is licensed under the MIT License.
   
