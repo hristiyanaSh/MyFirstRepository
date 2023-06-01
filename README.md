@@ -1,19 +1,21 @@
 # RestaurantAssistant
 
-Restaurant Assistant is a Spring
-project designed to assist restaurant owners and staff in managing
-various aspects of their business. It provides a range of features and functionalities
-to streamline operations and enhance the dining experience.
+The purpose of the restaurant assistant project is to develop a web/mobile application that facilitates and streamlines the interaction between restaurant clients and staff. The application aims to enhance the overall dining experience by providing convenient features for clients, while also offering management tools for restaurant administrators.
+For clients, the application allows them to easily scan a QR code assigned to their table, which registers them as seated. This eliminates the need for manual table assignment and helps the restaurant keep track of occupied tables. Clients can then access various options and services directly through the application. In Phase 1, clients can request assistance from waitstaff, ask for a menu, and request the bill. In Phase 2, they can view the menu on their mobile devices, complete with dish names, pictures, and language options, and place orders directly through the application.
 
 ## Table of Contents
 #### Features
-#### Prerequisites
+### Softwares
 #### Installation
 #### Usage
 #### Contributing
 #### License
 
 ### Features
+* Call a waiter for assistance.
+* Request a menu.
+* Request the bill.
+
 
 #### Reservation Management:
 Efficiently handle customer reservations, track availability, and send confirmation emails.
@@ -74,7 +76,7 @@ Follow the on-screen instructions and tooltips to make the most of the Restauran
 #### Contributing
 We welcome contributions to the Restaurant Assistant project. To contribute, please follow these steps:
 
-1. Fork the repository.
+1. Clone the repository.
 
 2. Create a new branch:
 
