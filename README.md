@@ -12,26 +12,32 @@ For clients, the application allows them to easily scan a QR code assigned to th
 * #### License
 
 ### Features
+
+#### Reservation Management:
+Efficiently handle customer reservations, track availability, and send notifications, followed by choosing one request:
 * Call a waiter for assistance.
 * Request a menu.
 * Request the bill.
-* The menu is available in different languages
+#### Available menu in different languages
 
-
-#### Reservation Management:
-Efficiently handle customer reservations, track availability, and send notifications.
 #### Order Management:
 Keep track of customer orders, manage menu items, and generate bills.
+
 #### Table Management:
 Assign and track table occupancy, optimize seating arrangements, and manage waitlists.
-Inventory Management:
+
+#### Inventory Management:
 Manage restaurant inventory, track stock levels, and receive alerts for low stock items.
+
 #### Staff Management:
 Maintain employee records, track shifts, and manage roles and permissions.
-#### Reporting and Analytics:
-Generate reports on sales, revenue, and other key metrics to gain insights into the business.
-Prerequisites
 
+#### Reporting and Analytics:
+Generate reports on sales, orders, transactions and other key metrics to gain insights into the business.
+
+#### Available menu in different languages
+
+#### Prerequisites
 **Before running Restaurant Assistant, ensure you have the following prerequisites installed:**
 
 ### Softwares
