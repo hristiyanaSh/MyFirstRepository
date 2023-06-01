@@ -19,7 +19,7 @@ For clients, the application allows them to easily scan a QR code assigned to th
 
 
 #### Reservation Management:
-Efficiently handle customer reservations, track availability, and send confirmation emails.
+Efficiently handle customer reservations, track availability, and send notifications.
 #### Order Management:
 Keep track of customer orders, manage menu items, and generate bills.
 #### Table Management:
@@ -36,36 +36,37 @@ Prerequisites
 
 ### Softwares
 
-Docker
-Java Development Kit (JDK) 20
-Apache Maven
-MySQL or any other compatible database
+* Docker
+* Java Development Kit (JDK) 20
+* Apache Maven
+* MSSQL 
 
 ### Installation
 
 1. Clone the repository:
 
-bash: git clone https://github.com/georgedobrev/Restaurant_Assistant.git
+ git clone https://github.com/georgedobrev/Restaurant_Assistant.git
 
 2. Navigate to the project directory:
 
-bash: cd restaurant-assistant
+ cd restaurant-assistant
 
 3. Build the project using Maven:
 
 mvn clean install
 
 4. Install Docker 
-5. create tables in package db.migration
-6. write 'docker - compose up' on the console
-7. To use the DataBase you have to know the username and password and have to enter them in application.property file
+5. Write 'docker-compose up' on the console
+6. Connecting to the DataBase using username and password
+7. Write 'CREATE DATABASE restaurant_assistant' in create_database.sql 
 
 ### Configuration
 **Configure the database connection in src/main/resources/application.properties.**
 
 Run the project:
 
-mvn spring-boot:run
+> mvn spring-boot:run
+> 
 Access the application in your browser at http://localhost:8080.
 
 ##### Usage
@@ -84,15 +85,15 @@ We welcome contributions to the Restaurant Assistant project. To contribute, ple
 
 2. Create a new branch:
 
-css git checkout -b my-feature-branch
+ > git checkout -b my-feature-branch
 
 3. Make your changes and commit them:
 
-sql git commit -m "Add new feature"
+> git commit -m "Add new feature"
 
 4. Push your changes to your forked repository:
 
-perl git push origin my-feature-branch
+ > git push origin my-feature-branch
 
 5. Open a pull request to the main repository.
 
