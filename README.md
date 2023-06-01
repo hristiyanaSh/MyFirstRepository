@@ -78,16 +78,16 @@ We welcome contributions to the Restaurant Assistant project. To contribute, ple
 
 2. Create a new branch:
 
-css
-git checkout -b my-feature-branch
+css git checkout -b my-feature-branch
+
 3. Make your changes and commit them:
 
-sql
-git commit -m "Add new feature"
+sql git commit -m "Add new feature"
+
 4. Push your changes to your forked repository:
 
-perl
-git push origin my-feature-branch
+perl git push origin my-feature-branch
+
 5. Open a pull request to the main repository.
 
 #### License
